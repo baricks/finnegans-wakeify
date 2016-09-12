@@ -1,0 +1,27 @@
+.App {
+  background-color: #f6f6f6;
+  height: 100vh;
+  width: 100vw;
+}
+
+.App-logo {
+  font-size: 70px;
+}
+
+.App-header {
+  background-color: #232f3e;
+  text-align: center;
+  height: 150px;
+  padding: 50px;
+  color: #f6f6f6;
+}
+
+.App-intro {
+  font-size: 18px;
+  padding: 50px 50px;
+}
+
+.App-intro .box {
+  width: 50vw;
+  height:20vh;
+}
