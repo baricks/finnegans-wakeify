@@ -1,24 +1,26 @@
 .App {
   background-color: #f6f6f6;
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .App-logo {
-  font-size: 70px;
+  font-size: 30px;
 }
 
 .App-header {
-  background-color: #232f3e;
+  background-color: #E2E2E2;
   text-align: center;
-  height: 150px;
-  padding: 50px;
-  color: #f6f6f6;
+  height: 110px;
+  padding: 30px;
+  color: black;
+  font-size: 15px;
 }
 
 .App-intro {
-  font-size: 18px;
-  padding: 50px 50px;
+  font-size: 15px;
+  padding: 30px 50px;
 }
 
 .App-intro .box {
