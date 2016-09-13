@@ -82,15 +82,17 @@ class Formy extends Component {
   }
 
   handleClick () {
+    console.log('click');
     this.setState({value: ''});
   }
 
   handleChange (event) {
+    console.log('change');
     this.setState({value: event.target.value});
   }
 
   handleSubmit () {
-
+    console.log('submit');
     output = this.state.value;
     output_new = output;
     var tags = nlp.sentence(output).tags();
@@ -115,7 +117,8 @@ class Formy extends Component {
     }
 
     console.log(output_new)
-
+    this.forceUpdate();
+    
     // var file = document.getElementById("file").files[0];
     // if ( this.state.value !== '' ) {
     //   output = this.state.value;
