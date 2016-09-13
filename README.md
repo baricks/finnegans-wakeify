@@ -1,4 +1,4 @@
-Finnegans Wakeify is a web application that transforms any text into a text that sounds like James Joyce's Finnegans Wake.
+Finnegans Wake is a novel by James Joyce written in an experimental stream of consciousness style that rejects narrative conventions. This tool allows you to generate a text that mimics both the style and the vocabulary of the novel.
 
 Below you will find some information on how to perform common tasks.  
 
